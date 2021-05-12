@@ -2,8 +2,7 @@ import React from 'react';
 import './Todo.css';
 
 export default function Todo({todo, onDelete}) {
-  {var i=1;
-  i++;}
+  
     return (
       <section>
       <div className="boxes">
