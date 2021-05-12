@@ -5,8 +5,7 @@ import cover2 from './img/insidepag.jpeg';
 export default function About() {
     return (
 
-        <>
-        
+
         <div className="containers">
             
             <p className="line anim-typewriter">Hello my name is Arya Sah,Cse Student</p>
@@ -39,6 +38,6 @@ export default function About() {
      </div>
      </div>
      
-       </>
+
     )
 }
