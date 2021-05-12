@@ -7,7 +7,7 @@ export default function Todos(props) {
         <div className="containers">
           
         <h3 className=" my-5 mb-5">ToDo's List</h3>
-        {props.todos.length==0?"no to dos to display":
+        {props.todos.length==0?<h5 style={{color:red}}>no to dos to display</h5>:
         props.todos.map((todo) =>{
              return(<Todo todo={todo} key={todo.s_n0} onDelete={props.onDelete}/>)
             
