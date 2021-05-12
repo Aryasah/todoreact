@@ -6,7 +6,10 @@ export default function About() {
     return (
 
 
+<<<<<<< HEAD
         
+=======
+>>>>>>> 929cbf2b0b06a614a6a03091f74b080ba00dea9b
         <div className="containers">
             
             <p className="line anim-typewriter">Hello my name is Arya Sah,Cse Student</p>
@@ -40,6 +43,10 @@ export default function About() {
     </div>
     </div>
      
+<<<<<<< HEAD
 
+=======
+</div>
+>>>>>>> 929cbf2b0b06a614a6a03091f74b080ba00dea9b
     )
 }
