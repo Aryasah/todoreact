@@ -4,7 +4,7 @@ import cover1 from './img/aryasah.jpeg';
 import cover2 from './img/insidepag.jpeg';
 export default function About() {
     return (
-<<<<<<< HEAD
+
         <>
         
         <div className="containers">
@@ -28,11 +28,11 @@ export default function About() {
 
                 </div>
             </div>
-=======
+
         <div className="container">
             <h3 className="display-4">About</h3>
             <p className="text-left container mx-10">my name is arya sah </p>
->>>>>>> 69a007a303dc874df2954acf64ea720582dbec54
+
         </div>
     </div>
  
