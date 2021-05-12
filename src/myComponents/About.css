@@ -31,7 +31,7 @@ Suppose we want to create a gradient that transitions from the color #00D2FF (li
     white-space: nowrap;
     overflow: hidden;
     font-size:2.5em;
-    width:16em;
+    width:20em;
     text-align:center;
     margin:10px auto;
     padding-right: 0;
@@ -56,7 +56,7 @@ Suppose we want to create a gradient that transitions from the color #00D2FF (li
         width:0;
     }
     to{
-        width:19em;
+        width:20em;
     }
 }
 
