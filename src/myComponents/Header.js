@@ -35,6 +35,9 @@ export default function Header(props) {
       {/* input me slash lagana hoga */}
       <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>:""}
+    <button type="button" className="btn btn-secondary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
+  Add new Todos
+</button>
   </div>
 </nav>
    

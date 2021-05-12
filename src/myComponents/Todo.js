@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Todo.css';
 
 export default function Todo({todo, onDelete}) {
+  {var i=1;
+  i++;}
     return (
-        <div  className=" px-10 py-20 my-3">
+      <section>
+      <div className="boxes">
+      <span> <div  className="content">
         
         <h3 className="display-5">{todo.task}
         </h3>
@@ -12,6 +17,11 @@ export default function Todo({todo, onDelete}) {
           </p>
           <button className="btn btn-sm btn-danger"  onClick={()=>{onDelete(todo)}}>Delete</button>
           
-        </div>
+        </div></span>
+      </div>
+      </section>
+  
+  
+
     )
 }

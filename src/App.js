@@ -11,7 +11,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 
 
@@ -27,7 +27,7 @@ function App() {
   }
   const addTodo = (title, desc) => {
     let s_no;
-    if (todos.length == 0) {
+    if (todos.length === 0) {
       s_no = 0;
     }
     else {
