@@ -9,7 +9,7 @@ export default function About() {
 
         <div className="containers">
             
-            <p className="line anim-typewriter">Hello my name is Arya Sah,Cse Student</p>
+            <p className="line anim-typewriter">Hello my name is Arya ,Cse Student</p>
             <div className="con">
             <div className="card">
         <div className="imgBox">
