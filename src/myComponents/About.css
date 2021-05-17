@@ -21,7 +21,6 @@ Suppose we want to create a gradient that transitions from the color #00D2FF (li
     /* background: linear-gradient(to right, rgba(0,201,255, 0.5), rgba(254, 146, 200, 0.7)); */
    /* hardlines */
     /* background: linear-gradient(150deg, #00C9FF 50%, #92FE9D 50%); */
-    height:calc(100vh-8em);
     min-height:100vh;
     font-weight:700;
     color: #ffffff;
